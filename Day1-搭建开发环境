@@ -1,0 +1,23 @@
+1.首先确认系统安装的python版本
+python --version
+2.pip安装web app需要的第三方库
+异步框架aiohttp
+pip install aiohttp
+前端模板引擎jinja2
+pip install jinja2
+mysql数据库
+mysql --version
+mysql的python异步驱动程序aiomysql
+pip install aiomysql
+
+2.项目结构
+awesome-python-webapp根目录
+-backup备份
+-conf配置
+-dist打包
+-www存放.py文件，web目录
+--static静态文件
+--templates模板文件
+-iso存放ios app工程
+-LICENSE
+
